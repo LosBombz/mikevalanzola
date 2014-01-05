@@ -62,7 +62,7 @@ module.exports = function(grunt) {
                     sassDir: 'debug/styles/sass',
                     cssDir: 'release/styles',
                     outputStyle: 'compressed',
-                    imageDir: 'images',
+                    imageDir: 'release/images',
                     fontsDir: 'fonts',
                     relativeAssets: true,
                     noLineComments: true,
@@ -73,7 +73,7 @@ module.exports = function(grunt) {
                 options: {
                     sassDir: 'debug/styles/sass',
                     cssDir: 'debug/styles/css',
-                    imageDir: 'images',
+                    imageDir: 'debug/images',
                     fontsDir: 'fonts',
                     relativeAssets: true,
                     environment: 'development'
@@ -142,7 +142,7 @@ module.exports = function(grunt) {
 
     
     // Default task.
-    grunt.registerTask('default', ['requirejs', 'compass', 'copy' ]);
+    grunt.registerTask('default', ['requirejs', 'copy', 'compass' ]);
     grunt.registerTask('s', ['connect:debug:keepalive']);
     grunt.registerTask('rs', ['connect:release:keepalive']);
 
