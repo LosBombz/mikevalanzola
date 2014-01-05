@@ -60,7 +60,7 @@ module.exports = function(grunt) {
             dist: {                   
                 options: {              
                     sassDir: 'debug/styles/sass',
-                    cssDir: 'release/styles',
+                    cssDir: 'release/styles/css',
                     outputStyle: 'compressed',
                     imageDir: 'release/images',
                     fontsDir: 'fonts',
@@ -119,12 +119,33 @@ module.exports = function(grunt) {
                     {   
                         expand: true,
                         cwd: 'debug/',
-                        src: ['**/*','!scripts/**/*','!styles/**/*'],
+                        src: ['images/**/*','fonts/'],
                         dest: 'release/'
-                    }
-                    // ,
-                    // {src: ['debug/index-release.html'], dest: 'release/index.html'},
-                    // {src: ['debug/scripts/lib/modernizr.custom.js'], dest: 'release/scripts/modernizr.custom.js'},
+                    },
+                    {
+                        expand: true,
+                        cwd: 'debug/',
+                        src: ['scripts/libs/modernizr.js'], 
+                        dest: 'release/'
+                    },
+                    {
+                        expand: true,
+                        cwd: 'debug/',
+                        src: ['scripts/libs/modernizr.js'], 
+                        dest: 'release/'
+                    },
+                    {
+                        expand: true,
+                        cwd: 'debug/',
+                        src: ['styles/css/png/*'], 
+                        dest: 'release/'
+                    },
+                    {
+                        expand: true,
+                        cwd: 'debug/',
+                        src: ['styles/css/icons.data.png.css', 'styles/css/icons.data.svg.css', 'styles/css/icons.fallback.css'], 
+                        dest: 'release/'
+                    },
                 ]
             }
         }
