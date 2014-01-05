@@ -2,7 +2,6 @@ node_modules
 debug/scripts/components
 debug/docs
 debug/.DS_Store
-release
 .sass-cache
 .DS_Store
 .grunt
