@@ -1,0 +1,100 @@
+/* Welcome to Compass. your imports)
+* Import this file using the following HTML or equivalent:
+* <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+
+
+@import "compass/reset";
+@import "compass/css3";
+
+/*  ==========================================================================
+VARIABLES
+========================================================================== */
+
+$red: #0b4673;
+$dark-red: #0b4673;
+$blue: #2783c3;
+$dark-blue: #2783c3;
+$grey: #333333;
+
+$heading-color: $dark-blue;
+$text-color: $grey;
+
+/*  ==========================================================================
+MIXINS
+========================================================================== */
+
+@mixin font-size($sizeValue: 1.6) {
+    font-size: ($sizeValue * 10) + px;
+    font-size: $sizeValue + rem;
+}
+
+/*  ==========================================================================
+FONTS
+========================================================================== */
+
+
+// videojs fonts
+// @include font-face(
+//   "VideoJS",
+//   font-files(
+//     "videojs/vjs.woff",
+//     "videojs/vjs.ttf",
+//     "videojs/vjs.svg"
+//   ),
+//   "videojs/vjs.eot"
+// ); 
+
+
+// font stacks
+$sans: arial, Verdana, Geneva, sans-serif;
+$serif: 'times new roman', Verdana, Geneva, sans-serif;
+
+
+/*  ==========================================================================
+SPRITES
+========================================================================== */
+
+
+
+// dashboard
+// $portfolio-sprite: sprite-map("sprites/portfolio/*.png", $new-position: 0%, $spacing: 25px);
+
+/*  ==========================================================================
+GLOBALS
+========= ================================================================= */
+
+* {
+    @include box-sizing(border-box);
+}
+
+html {
+    //reset font-size for use with rems
+    font-size: 62.5%;
+}
+
+body {
+    font-family: $sans;
+    @include font-size(12);
+    color: $text-color; 
+}
+
+h1, h2, h3 , h4, h5, h6 {
+    font-family: $serif;
+    color: $heading-color;
+}
+
+
+p {
+
+}
+
+a {
+    text-decoration: none;
+    color: $blue;
+
+}
+
+strong { 
+    font-weight: bold;
+}
