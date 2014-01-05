@@ -1,25 +1,17 @@
 {
-  "name": "PROJECT-NAME",
-  "version": "0.1.0",
-  "description": "Add project description.",
-  "main": "main.js",
-  "dependencies": {
-    "grunt": "~0.4.1"
-  },
-  "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-watch": "~0.3.1",
-    "grunt-contrib-requirejs": "~0.4.0",
-    "grunt-contrib-jshint": "~0.3.0",
-    "grunt-contrib-yuidoc": "~0.4.0",
-    "grunt-contrib-compass": "~0.1.3",
-    "grunt-contrib-copy": "~0.4.0",
-    "grunt-contrib-connect": "~0.3.0"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": "",
-  "author": "Genuine Interactive",
-  "license": "BSD"
+    "name": "mikevalanzola",
+    "version": "0.1.0",
+    "description": "campaign site for mike valanzola.",
+    "dependencies": {
+        "grunt": "~0.4.1"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.1",
+        "grunt-contrib-watch": "~0.3.1",
+        "grunt-contrib-requirejs": "~0.4.0",
+        "grunt-contrib-jshint": "~0.3.0",
+        "grunt-contrib-compass": "~0.1.3",
+        "grunt-contrib-copy": "~0.4.0",
+        "grunt-contrib-connect": "~0.3.0"
+    }
 }
