@@ -1,0 +1,59 @@
+.pillars-container {
+	width: 100%;
+	
+	.pillar {
+		width: 30.164384%;
+		@include inline-block;
+		padding: 20px;
+		background: $tan;
+		vertical-align: top;
+		border-top: 6px solid $blue;
+		
+
+		&:nth-child(1) {
+			margin: 0 3.848% 0 0;
+		}
+
+		&:nth-child(3) {
+			margin: 0 0 0 3.848%;
+		}
+
+		h2 {
+			@include font-size(2.8);
+			margin: 0 0 15px 0;
+		}
+
+		p{
+			@include font-size(1.7);
+			line-height: 1.5em;
+		}
+
+			
+
+	}
+
+	@media screen and (max-width: $break-mid) {
+		.content-container {
+			width: 100%;
+		}
+		.pillar {
+			display: block;
+			width: 100%;
+			margin: 20px 0;
+			
+
+			&:nth-child(1) {
+				margin:20px 0;
+			}
+
+			&:nth-child(3) {
+				margin:20px 0;
+			}
+
+		}
+	}
+
+
+	
+
+}

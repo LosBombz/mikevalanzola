@@ -1,0 +1,79 @@
+.social-container {
+	width: 100%;
+	margin: 40px 0;
+	.button {
+		&.social {
+			width: 30.164384%;
+			@include inline-block;
+			padding: 20px;
+			vertical-align: top;
+
+			&.facebook {
+				background: #3b5998;
+				border-bottom: 5px solid #31497a;
+			}
+
+			&.twitter {
+				background: #00acee;
+				border-bottom: 5px solid #028bc0;
+			}
+
+			&.linkedin {
+				background: #0e76a8;
+				border-bottom: 5px solid #0b6089;
+			}
+
+			&:nth-child(1) {
+				margin: 0 3.848% 0 0;
+			}
+
+			&:nth-child(3) {
+				margin: 0 0 0 3.848%;
+			}
+		}
+	}
+	.pillar {
+		
+		
+
+		
+
+		h2 {
+			@include font-size(2.8);
+			margin: 0 0 15px 0;
+		}
+
+		p{
+			@include font-size(1.7);
+			line-height: 1.5em;
+		}
+
+			
+
+	}
+
+	@media screen and (max-width: $break-mid) {
+		.content-container {
+			width: 100%;
+		}
+		.pillar {
+			display: block;
+			width: 100%;
+			margin: 20px 0;
+			
+
+			&:nth-child(1) {
+				margin:20px 0;
+			}
+
+			&:nth-child(3) {
+				margin:20px 0;
+			}
+
+		}
+	}
+
+
+	
+
+}

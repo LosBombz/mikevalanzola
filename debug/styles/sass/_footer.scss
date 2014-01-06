@@ -1,0 +1,17 @@
+footer {
+	width: 100%;
+	height: 150px;
+	background: $dark-blue;
+	
+	
+
+
+	@media screen and (max-width: $break-small) {
+		height: 170px;
+		.icon-logo {
+			width: 250px;
+			height: 117px;
+		}
+	}
+
+}

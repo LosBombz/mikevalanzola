@@ -14,13 +14,15 @@ VARIABLES
 $red: #f35056;
 $dark-red: #bd3e43;
 $blue: #2783c3;
-$dark-blue: #2783c3;
+$dark-blue: #273169;
 $grey: #333333;
+$tan: #fcf6e0;
 
 $heading-color: $dark-blue;
 $text-color: $grey;
 
 $break-small: 480px;
+$break-mid: 800px;
 
 /*  ==========================================================================
 MIXINS
@@ -86,6 +88,19 @@ h1, h2, h3 , h4, h5, h6 {
     color: $heading-color;
 }
 
+h3 {
+    @include font-size(2.8);
+    color: #ffffff;
+    font-family: $sans;
+    text-align: center;
+    text-transform: uppercase;
+    background: $blue;
+    border-bottom: 4px solid ($blue - 30);
+    padding: 12px 0;
+    margin: 0 0 20px 0;
+    font-weight: normal;
+}
+
 
 p {
 
@@ -94,7 +109,7 @@ p {
 a {
     text-decoration: none;
     color: $blue;
-
+    @include transition(.3s);
 }
 
 strong { 
@@ -119,9 +134,18 @@ strong {
         background: $red;
         border-bottom: 3px solid $dark-red;
         color: #fff;
+
+        &:hover {
+            background: $dark-red;
+        }
     }
 }
 
 /*partials*/
 
 @import "header";
+@import "slider";
+@import "quote";
+@import "pillars";
+@import "social";
+@import "footer";
