@@ -39,20 +39,21 @@ FONTS
 
 
 // videojs fonts
-// @include font-face(
-//   "VideoJS",
-//   font-files(
-//     "videojs/vjs.woff",
-//     "videojs/vjs.ttf",
-//     "videojs/vjs.svg"
-//   ),
-//   "videojs/vjs.eot"
-// ); 
+@include font-face(
+  "social",
+  font-files(
+    "social.woff",
+    "social.ttf",
+    "social.svg"
+  ),
+  "social.eot"
+); 
 
 
 // font stacks
 $sans: arial, Verdana, Geneva, sans-serif;
 $serif: 'times new roman', Verdana, Geneva, sans-serif;
+$social: 'social', arial, verdana, sans-serif;
 
 
 /*  ==========================================================================

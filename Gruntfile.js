@@ -63,7 +63,7 @@ module.exports = function(grunt) {
                     cssDir: 'release/styles/css',
                     outputStyle: 'compressed',
                     imageDir: 'release/images',
-                    fontsDir: 'fonts',
+                    fontsDir: 'release/fonts',
                     relativeAssets: true,
                     noLineComments: true,
                     environment: 'production'
@@ -74,7 +74,7 @@ module.exports = function(grunt) {
                     sassDir: 'debug/styles/sass',
                     cssDir: 'debug/styles/css',
                     imageDir: 'debug/images',
-                    fontsDir: 'fonts',
+                    fontsDir: 'debug/fonts',
                     relativeAssets: true,
                     environment: 'development'
 
@@ -145,7 +145,7 @@ module.exports = function(grunt) {
                         cwd: 'debug/',
                         src: ['styles/css/icons.data.png.css', 'styles/css/icons.data.svg.css', 'styles/css/icons.fallback.css'], 
                         dest: 'release/'
-                    },
+                    }
                 ]
             }
         }
