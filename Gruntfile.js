@@ -127,7 +127,7 @@ module.exports = function(grunt) {
                     {   
                         expand: true,
                         cwd: 'debug/',
-                        src: ['images/**/*','fonts/'],
+                        src: ['images/**/*','fonts/**/*'],
                         dest: 'release/'
                     },
                     {
