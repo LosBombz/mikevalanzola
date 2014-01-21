@@ -98,6 +98,14 @@ module.exports = function(grunt) {
               }
             }
         },
+
+        processhtml: {
+            dist: {
+                files: {
+                    'release/index.html': ['debug/index.html']
+                }
+            }
+        },
         
 
         //watch tasks
@@ -160,10 +168,11 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-compass');
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-contrib-connect');
+    grunt.loadNpmTasks('grunt-processhtml');
 
     
     // Default task.
-    grunt.registerTask('default', ['requirejs', 'copy', 'compass' ]);
+    grunt.registerTask('default', [ 'requirejs', 'processhtml', 'copy', 'compass' ]);
     grunt.registerTask('s', ['connect:debug:keepalive']);
     grunt.registerTask('rs', ['connect:release:keepalive']);
 

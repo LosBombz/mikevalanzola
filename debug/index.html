@@ -16,9 +16,8 @@
 		window.grunticon=function(e){if(e&&3===e.length){var t=window,n=!!t.document.createElementNS&&!!t.document.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect&&!!document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1"),A=function(A){var o=t.document.createElement("link"),r=t.document.getElementsByTagName("script")[0];o.rel="stylesheet",o.href=e[A&&n?0:A?1:2],r.parentNode.insertBefore(o,r)},o=new t.Image;o.onerror=function(){A(!1)},o.onload=function(){A(1===o.width&&1===o.height)},o.src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw=="}};
 		grunticon( [ "styles/css/icons.data.svg.css", "styles/css/icons.data.png.css", "styles/css/icons.fallback.css" ] );
 	</script>
-	<noscript><link href="styles/css/icons.fallback.css" rel="stylesheet"></noscript>
 	
-
+	<noscript><link href="styles/css/icons.fallback.css" rel="stylesheet"></noscript>
 	<link rel="stylesheet" media="screen" href="styles/css/main.css">
 	<script src="scripts/libs/modernizr.js"></script>
 
@@ -40,7 +39,7 @@
 				Mike Valanzola State Senate
 			</div>
 		</div>
-		<a href="https://secure.piryx.com/donate/tSQ6q57f/Mike-Valanzola/" target="_blank" class="button red donate">donate</a>
+		<a href="https://secure.piryx.com/donate/tSQ6q57f/Mike-Valanzola/" target="_blank" class="button red donate">Contribute</a>
 	</header>
 	<div class="slider-container">
 		<ul class="slider">
@@ -91,7 +90,7 @@
 	</div>
 	
 	<footer>
-		<a href="https://secure.piryx.com/donate/tSQ6q57f/Mike-Valanzola/" target="_blank" class="button red donate">donate</a>
+		<a href="https://secure.piryx.com/donate/tSQ6q57f/Mike-Valanzola/" target="_blank" class="button red donate">Contribute</a>
 		<div class="content-container">
 			<span class="disclaimer">Copyright &copy;2014 The Mike Valanzola Committee. All rights reserved <br />Authorized by the Mike Valanzola Committee</span>
 			<!-- <ul class="contact">
@@ -107,8 +106,9 @@
 		</div>
 	</footer>
 	
-	<!-- main script file if using AMD (require.js) -->
+	<!-- build:js release/scripts/main.js -->
 	<script data-main="scripts/app" src="scripts/components/requirejs/require.js"></script>
 	<script src="scripts/require.config.js"></script>
+	<!-- /build -->
 </body>
 </html>

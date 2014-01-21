@@ -1,17 +1,18 @@
 {
-    "name": "mikevalanzola",
-    "version": "0.1.0",
-    "description": "campaign site for mike valanzola.",
-    "dependencies": {
-        "grunt": "~0.4.1"
-    },
-    "devDependencies": {
-        "grunt": "~0.4.1",
-        "grunt-contrib-watch": "~0.3.1",
-        "grunt-contrib-requirejs": "~0.4.0",
-        "grunt-contrib-jshint": "~0.3.0",
-        "grunt-contrib-compass": "~0.1.3",
-        "grunt-contrib-copy": "~0.4.0",
-        "grunt-contrib-connect": "~0.3.0"
-    }
+  "name": "mikevalanzola",
+  "version": "0.1.0",
+  "description": "campaign site for mike valanzola.",
+  "dependencies": {
+    "grunt": "~0.4.1"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-watch": "~0.3.1",
+    "grunt-contrib-requirejs": "~0.4.0",
+    "grunt-contrib-jshint": "~0.3.0",
+    "grunt-contrib-compass": "~0.1.3",
+    "grunt-contrib-copy": "~0.4.0",
+    "grunt-contrib-connect": "~0.3.0",
+    "grunt-processhtml": "~0.2.7"
+  }
 }
