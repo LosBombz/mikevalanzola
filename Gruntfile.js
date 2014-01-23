@@ -28,7 +28,6 @@ module.exports = function(grunt) {
                 eqnull: true,
                 browser: true,
                 globals: {
-                    jQuery: true,
                     define: true,
                     require: true
                 }
@@ -40,7 +39,7 @@ module.exports = function(grunt) {
         },
 
 
-        // if using AMD (require.js)
+        // require build
         requirejs: {
             compile: {
                 options: {

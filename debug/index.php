@@ -4,7 +4,6 @@
 	<title>Michael Valanzola - Massachusetts State Senate</title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<!-- uncomment for responsive sites -->
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<meta name="description" content="">
 	<link rel="shortcut icon" href="favicon.ico">
@@ -41,6 +40,7 @@
 		</div>
 		<a href="https://secure.piryx.com/donate/tSQ6q57f/Mike-Valanzola/" target="_blank" class="button red donate">Contribute</a>
 	</header>
+	<?php include("includes/navigation.php"); ?>
 	<div class="slider-container">
 		<ul class="slider">
 			<li>
