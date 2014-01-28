@@ -41,13 +41,8 @@
 		<a href="https://secure.piryx.com/donate/tSQ6q57f/Mike-Valanzola/" target="_blank" class="button red donate">Contribute</a>
 	</header>
 	<?php include("includes/navigation.php"); ?>
-	<div class="slider-container">
-		<ul class="slider">
-			<li>
-				<img src="images/content/mike1.jpg" alt="Mike Valanzola in front of the Wales Town Hall" />
-			</li>
-		</ul>
-	</div>
+	<?php include("includes/res-slider.php"); ?>
+	
 	<div class="quote-container">
 		<h3>Mike's Commitment to You</h3>
 		<div class="content-container">
