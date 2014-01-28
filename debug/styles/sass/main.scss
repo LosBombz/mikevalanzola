@@ -110,7 +110,7 @@ p {
 a {
     text-decoration: none;
     color: $blue;
-    @include transition(.3s);
+    @include transition(0.3s);
 
     &:hover {
         color: $blue - 30;

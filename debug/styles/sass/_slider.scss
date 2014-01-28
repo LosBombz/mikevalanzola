@@ -1,14 +1,17 @@
 .slider-container {
 	width: 100%;
 	height: 450px;
-	background: $dark-blue;
-	border-bottom: 5px solid $dark-blue - 20;
+	background: #555;
 	overflow: hidden;
 	position: relative;
 	.slider {
-		width: 800px;
-		margin: 0 auto;
-
+		li {
+			img {
+				width: 100%;
+			}
+			
+		}
+		
 	}
 
 	@media screen and (max-width: $break-mid) {
@@ -16,7 +19,7 @@
 		height: auto;
 
 		img {
-			width: 100%;
+			
 			height: auto;
 		}
 		.slider {
