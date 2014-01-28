@@ -47,7 +47,9 @@ module.exports = function(grunt) {
                     mainConfigFile: "debug/scripts/require.config.js",
                     out: "release/scripts/main.js",
                     name: "components/almond/almond",
-                    include: ['app'],
+                    include: [
+                        'app'
+                    ],
                     insertRequire: ['app']
                 }
             }

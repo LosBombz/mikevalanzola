@@ -107,7 +107,7 @@
 	</footer>
 	
 	<!-- build:js scripts/main.js -->
-	<script data-main="scripts/app" src="scripts/components/requirejs/require.js"></script>
+	<script data-main="scripts/app.main.js" src="scripts/components/requirejs/require.js"></script>
 	<script src="scripts/require.config.js"></script>
 	<!-- /build -->
 </body>

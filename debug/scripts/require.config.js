@@ -7,12 +7,27 @@
 		//paths to script files
 		paths: {
 			'jquery': 'components/jquery/jquery',
-			'text': 'components/requirejs-text/text'
+			'jquery.swipe' : 'libs/swipe',
+			'text': 'components/requirejs-text/text',
+			underscore: 'components/underscore/underscore-min',
+            backbone: 'components/backbone/backbone-min',
+            almond: 'components/almond/almond',
+
+            // Core Logic
+            minion: 'minion/minion',
+            sandbox: 'minion/sandbox',
+            moduleClass: 'minion/module.class'
 		},
 
-		shim: {
-			
-		}
+		 shim: {
+            'underscore': {
+                exports: '_'
+            },
+            'backbone': {
+                deps: ['underscore', 'jquery'],
+                exports: 'Backbone'
+            }
+        }
 	});
 
 }());
