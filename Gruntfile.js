@@ -48,9 +48,9 @@ module.exports = function(grunt) {
                     out: "release/scripts/main.js",
                     name: "components/almond/almond",
                     include: [
-                        'app'
+                        'app.main'
                     ],
-                    insertRequire: ['app']
+                    insertRequire: ['app.main']
                 }
             }
         },
@@ -102,6 +102,11 @@ module.exports = function(grunt) {
 
         processhtml: {
             dist: {
+                options: {
+                    data: {
+                        ua: 'UA-46917413-1'
+                    }
+                },
                 files: {
                     'release/index.php': ['debug/index.php']
                 }
