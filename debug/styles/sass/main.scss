@@ -15,8 +15,10 @@ $red: #f35056;
 $dark-red: #bd3e43;
 $blue: #2783c3;
 $dark-blue: #273169;
-$grey: #333333;
+$grey: #3e3e3e;
+$light-grey: #eeece7;
 $tan: #fcf6e0;
+$background: #EEECE6;
 
 $heading-color: $dark-blue;
 $text-color: $grey;
@@ -82,6 +84,7 @@ body {
     font-family: $sans;
     @include font-size(1.2);
     color: $text-color; 
+    background: $background;
 }
 
 h1, h2, h3 , h4, h5, h6 {
@@ -95,7 +98,7 @@ h3 {
     font-family: $sans;
     text-align: center;
     text-transform: uppercase;
-    background: $blue;
+    background: $tan;
     border-bottom: 4px solid ($blue - 30);
     padding: 12px 0;
     margin: 0 0 20px 0;

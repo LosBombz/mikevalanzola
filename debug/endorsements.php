@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US"> 
 <head>
-	<title>Michael Valanzola - Massachusetts State Senate</title>
+	<title>Michael Valanzola - Endorsements - Massachusetts State Senate</title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
@@ -32,12 +32,11 @@
 
 </head>
 <body>
-	
+	<?php include("includes/header.php"); ?>
 	<?php include("includes/navigation.php"); ?>
-	<?php include("includes/res-slider.php"); ?>
 	
 	<div class="quote-container">
-		<h3>Mike's Commitment to You</h3>
+		<h3>Endorsements From Mike Valanzola Supporters</h3>
 		<div class="content-container">
 			
 			<q>

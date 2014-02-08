@@ -1,13 +1,16 @@
+$border-shadow: #bbbbbb;
+
 .pillars-container {
 	width: 100%;
 	
 	.pillar {
 		width: 30.164384%;
 		@include inline-block;
-		padding: 20px;
-		background: $tan;
+		// padding: 20px;
+		background: #ffffff;
 		vertical-align: top;
-		border-top: 6px solid $blue;
+		// border-top: 6px solid $blue;
+		border-bottom: 2px solid $border-shadow;
 		
 
 		&:nth-child(1) {
@@ -21,11 +24,15 @@
 		h2 {
 			@include font-size(2.8);
 			margin: 0 0 15px 0;
+			background: $blue;
+			padding: 10px;
+			color: #ffffff;
 		}
 
 		p{
 			@include font-size(1.6);
 			line-height: 1.5em;
+			padding: 20px;
 		}
 
 			
