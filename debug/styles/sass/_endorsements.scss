@@ -1,0 +1,58 @@
+$border-shadow: #bbbbbb;
+
+.endorsements-container {
+	width: 100%;
+
+	ul {
+		text-align: center;
+	}
+	
+	.endorsement {
+		width: 250px;
+		@include inline-block;
+		background: #ffffff;
+		vertical-align: top;
+		border-bottom: 2px solid $border-shadow;
+		margin: 10px 5px;
+		
+
+
+
+		h2 {
+			@include font-size(2);
+			background: $blue;
+			padding: 10px;
+			color: #ffffff;
+			font-family: $serif;
+			line-height: 1.4em;
+			text-align: center;
+		}
+
+		h3{
+			@include font-size(1.8);
+			line-height: 1.5em;
+			padding: 20px;
+			color: $grey;
+			background: #ffffff;
+			text-transform: none;
+		}
+
+			
+
+	}
+
+	@media screen and (max-width: $break-mid) {
+		.content-container {
+			width: 100%;
+		}
+		.endorsement {
+			display: block;
+			width: 100%;
+			margin: 20px 0;
+		}
+	}
+
+
+	
+
+}

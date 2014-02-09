@@ -35,48 +35,80 @@
 	<?php include("includes/header.php"); ?>
 	<?php include("includes/navigation.php"); ?>
 	
-	<div class="quote-container">
-		<h3>Endorsements From Mike Valanzola Supporters</h3>
-		<div class="content-container">
-			
-			<q>
-				I will be a State Senator that you can count on, one that will lead and represent you in an open and honest way. I will work with you to help solve our most complex problems and I will never forget that we're all in this together. Please join our team!
-			</q>
-		</div>
+	<div data-module="res-slider-module" class="slider-container">
+		<ul class="slider">
+			<li>
+				<img src="images/content/mike1.jpg" alt="Mike Valanzola in front of the Wales Town Hall" />
+			</li>
+		</ul>
 	</div>
-	<div class="pillars-container">
-		<h3>The Focus of our Campaign</h3>
-		<div class="content-container">
+	
 
-			<div class="pillar">
-				<h2>Economy</h2>
-				<p>
-					Mike has the pleasure of working at one of Massachusetts largest technology employers, EMC Corporation. At EMC Mike has led teams and organizations and understands that a pro-job, pro-prosperity government can work to create the conditions that enable businesses of all sizes to grow and thrive. 
-				</p>
-			</div>
-			<div class="pillar">
-				<h2>Education</h2>
-				<p>
-					As Chairman of the Tantasqua Regional School Committee, Mike knows how important Regional transportation and Chapter 70 funding is to schools in our district. He will work hard to always ensure that our schools are supported at the highest level and our standards are unmatched by any other state.
-				</p>
-			</div>
-			<div class="pillar">
-				<h2>Community</h2>
-				<p>
-					The 28 towns in this district are used to having a partner in the Senate, someone who will work with them on every issue important to our municipalities. As a two term Selectman, Mike knows how important that partnership is for our communities. 
-				</p>
-			</div>
-		</div>
-	</div>
-	<div class="social-container">
+	<h1>Endorsements From Mike Valanzola Supporters</h1>
+
+	<div class="endorsements-container">
+		
 		<div class="content-container">
-			<a href="//www.facebook.com/valanzola.for.senate" target="_blank" class="button social facebook">"</a>
-			<a href="//twitter.com/mikeval84" target="_blank" class="button social twitter">#</a>
-			<a href="//www.linkedin.com/pub/mike-valanzola/12/38b/232" target="_blank" class="button social linkedin">!</a>
+			<ul>
+				<li class="endorsement">
+					<h2>
+						Lew Evangelidis
+					</h2>
+					<h3>Worcester Country Sheriff</h3>
+				</li>
+				<li class="endorsement">
+					<h2>
+						Michael Sullivan
+					</h2>
+					<h3>Former US Attorney and Candidate for US Senate</h3>
+				</li>
+				<li class="endorsement">
+					<h2>
+						Reed Hillman
+					</h2>
+					<h3>Former State Rep, Candidate for L.G. and Superintendent of the Mass State Police </h3>
+				</li>
+				<li class="endorsement">
+					<h2>
+						Todd Smola
+					</h2>
+					<h3>State Representative for the 1st Hampden District</h3>
+				</li>
+				<li class="endorsement">
+					<h2>
+						Nick Boldyga
+					</h2>
+					<h3>State Representative for the 3rd Hampden District</h3>
+				</li>
+				<li class="endorsement">
+					<h2>
+						David Peters 
+					</h2>
+					<h3>Former House Minority Leader</h3>
+				</li>
+				<li class="endorsement">
+					<h2>
+						Jennie Cassie 
+					</h2>
+					<h3>Governors Councilor</h3>
+				</li>
+				<li class="endorsement">
+					<h2>
+						Kim Ferguson 
+					</h2>
+					<h3>State Rep</h3>
+				</li>
+				<li class="endorsement">
+					<h2>
+						Paul Frost 
+					</h2>
+					<h3>State Rep</h3>
+				</li>
+			</ul>
 		</div>
 	</div>
 	
-	<?php include("includes/res-slider.php"); ?>
+	<?php include("includes/footer.php"); ?>
 	
 	<!-- build:js scripts/main.js -->
 	<script data-main="scripts/app.main.js" src="scripts/components/requirejs/require.js"></script>

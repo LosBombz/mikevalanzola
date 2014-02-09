@@ -34,7 +34,13 @@
 <body>
 	<?php include("includes/header.php"); ?>
 	<?php include("includes/navigation.php"); ?>
-	<?php include("includes/res-slider.php"); ?>
+	<div data-module="res-slider-module" class="slider-container">
+		<ul class="slider">
+			<li>
+				<img src="images/content/mike1.jpg" alt="Mike Valanzola in front of the Wales Town Hall" />
+			</li>
+		</ul>
+	</div>
 	
 	<div class="quote-container">
 		<h3>Mike's Commitment to You</h3>
@@ -69,13 +75,13 @@
 			</div>
 		</div>
 	</div>
-	<div class="social-container">
+<!-- 	<div class="social-container">
 		<div class="content-container">
 			<a href="//www.facebook.com/valanzola.for.senate" target="_blank" class="button social facebook">"</a>
 			<a href="//twitter.com/mikeval84" target="_blank" class="button social twitter">#</a>
 			<a href="//www.linkedin.com/pub/mike-valanzola/12/38b/232" target="_blank" class="button social linkedin">!</a>
 		</div>
-	</div>
+	</div> -->
 	
 	<?php include("includes/footer.php"); ?>
 	
