@@ -1,15 +1,18 @@
 .social-container {
 	width: 100%;
 	margin: 40px 0;
+	text-align: center;
 	.button {
 		&.social {
 			width: 30.164384%;
 			@include inline-block;
-			@include font-size(5);
+			
+
 			padding: 20px 0 63px 0;
 			vertical-align: top;
 			font-family: "social";
 			color: #ffffff;
+			@include font-size(5);
 
 			&.facebook {
 				background: #3b5998;
@@ -46,48 +49,47 @@
 			}
 		}
 	}
-	.pillar {
-		
-		
 
-		
-
-		h2 {
-			@include font-size(2.8);
-			margin: 0 0 15px 0;
-		}
-
-		p{
-			@include font-size(1.7);
-			line-height: 1.5em;
-		}
-
-			
-
-	}
 
 	@media screen and (max-width: $break-mid) {
 		.content-container {
 			width: 100%;
 		}
-		.pillar {
-			display: block;
-			width: 100%;
-			margin: 20px 0;
-			
-
-			&:nth-child(1) {
-				margin:20px 0;
-			}
-
-			&:nth-child(3) {
-				margin:20px 0;
-			}
-
-		}
 	}
 
+}
 
-	
+header {
+	.social-container {
+		display: inline-block;
+		width: 186px;
+		vertical-align: top;
+		margin: 20px 0 0 10%;
+		@media screen and (max-width: 770px) {
+			margin: 0;
+			width: 100%;
+		}
+		.buttons {
+			margin: 10px 0 0 0;
+			@media screen and (max-width: 770px) {
+				margin: 0;
+			}
 
+			@media screen and (max-width: 580px) {
+				display: none;
+			}
+		}
+		.button {
+			&.social {
+				padding: 15px 0 0 0;
+				width: 55px;
+				@include font-size(2);
+
+				@media screen and (max-width: 770px) {
+					margin: 0;
+					float: left;
+				}
+			}
+		}
+	}
 }

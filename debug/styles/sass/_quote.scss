@@ -1,8 +1,11 @@
+$border-shadow: #bbbbbb;
+
 .quote-container {
 	width: 100%;
 	background: #fff;
 	position: relative;
-	background: $light-grey;
+	margin: 30px 0 30px 0;
+	border-bottom: 2px solid $border-shadow;
 
 	q {
 		font-family: $serif;

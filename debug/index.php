@@ -32,7 +32,7 @@
 
 </head>
 <body>
-	
+	<?php include("includes/header.php"); ?>
 	<?php include("includes/navigation.php"); ?>
 	<?php include("includes/res-slider.php"); ?>
 	
@@ -77,7 +77,7 @@
 		</div>
 	</div>
 	
-	<?php include("includes/res-slider.php"); ?>
+	<?php include("includes/footer.php"); ?>
 	
 	<!-- build:js scripts/main.js -->
 	<script data-main="scripts/app.main.js" src="scripts/components/requirejs/require.js"></script>
