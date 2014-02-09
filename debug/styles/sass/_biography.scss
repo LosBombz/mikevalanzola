@@ -1,22 +1,14 @@
 $border-shadow: #bbbbbb;
 
-.endorsements-container {
-	width: 100%;
-
-	ul {
-		text-align: center;
-	}
+.biography-container {
+	width: 80%;
+	margin: 0 auto;
+	background: #ffffff;
+	padding: 20px;
+	border-bottom: 4px solid $border-shadow;
 	
-	.endorsement {
-		width: 250px;
-		@include inline-block;
-		background: #ffffff;
-		vertical-align: top;
-		border-bottom: 4px solid $border-shadow;
-		margin: 10px 5px;
+	.bio {
 		
-
-
 
 		h2 {
 			@include font-size(2);
@@ -37,18 +29,21 @@ $border-shadow: #bbbbbb;
 			text-transform: none;
 		}
 
+		p {
+			margin: 30px 0;
+			@include font-size(1.4);
+			line-height: 1.5em;
+
+		}
+
 			
 
 	}
 
-	@media screen and (max-width: $break-mid) {
+	@media screen and (max-width: $break-small) {
+		width: 100%;
 		.content-container {
 			width: 100%;
-		}
-		.endorsement {
-			display: block;
-			width: 100%;
-			margin: 20px 0;
 		}
 	}
 

@@ -139,7 +139,7 @@ module.exports = function(grunt) {
                     {   
                         expand: true,
                         cwd: 'debug/',
-                        src: ['includes/**/*'],
+                        src: ['*.php','includes/**/*'],
                         dest: 'release/'
                     },
                     {

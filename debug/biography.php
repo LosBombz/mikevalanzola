@@ -44,67 +44,18 @@
 	</div>
 	
 
-	<h1>Endorsements From Mike Valanzola Supporters</h1>
+	<h1>Mike Valanzola's Biography</h1>
 
-	<div class="endorsements-container">
+	<div class="biography-container">
 		
 		<div class="content-container">
-			<ul>
-				<li class="endorsement">
-					<h2>
-						Lew Evangelidis
-					</h2>
-					<h3>Worcester Country Sheriff</h3>
-				</li>
-				<li class="endorsement">
-					<h2>
-						Michael Sullivan
-					</h2>
-					<h3>Former US Attorney and Candidate for US Senate</h3>
-				</li>
-				<li class="endorsement">
-					<h2>
-						Reed Hillman
-					</h2>
-					<h3>Former State Rep, Candidate for L.G. and Superintendent of the Mass State Police </h3>
-				</li>
-				<li class="endorsement">
-					<h2>
-						Todd Smola
-					</h2>
-					<h3>State Representative for the 1st Hampden District</h3>
-				</li>
-				<li class="endorsement">
-					<h2>
-						Nick Boldyga
-					</h2>
-					<h3>State Representative for the 3rd Hampden District</h3>
-				</li>
-				<li class="endorsement">
-					<h2>
-						David Peters 
-					</h2>
-					<h3>Former House Minority Leader</h3>
-				</li>
-				<li class="endorsement">
-					<h2>
-						Jennie Cassie 
-					</h2>
-					<h3>Governors Councilor</h3>
-				</li>
-				<li class="endorsement">
-					<h2>
-						Kim Ferguson 
-					</h2>
-					<h3>State Rep</h3>
-				</li>
-				<li class="endorsement">
-					<h2>
-						Paul Frost 
-					</h2>
-					<h3>State Rep</h3>
-				</li>
-			</ul>
+			<div class="bio">
+				<p>Mike Valanzola was born November 21, 1984 the first of two children to Mark and Linda Valanzola. He has a sister Lindsay who is 24 years old. Mike graduated from Tantasqua Regional High School in 2003 and went on to attend Emmanuel College in Boston. On May 12, 2007 Mike graduated from Emmanuel College, cum lade, distinction in the field with a B.A. in Political Science and English Communications.</p>
+				<p>On Tuesday May 29, 2007 only 17 days after he graduated from college, Mike was elected to the Wales Board of Selectmen beating out a long time former Selectman.  Mike was elected the youngest selectman in the history of Wales and was among one of the youngest in the Commonwealth. He was re-elected at age 25, to a second term, with an astounding 76 percent of the vote. Mike retired from the Board of Selectmen in 2013, after serving two full terms, after pleading to only serve two terms. </p>
+				<p>Elected to the Tantasqua Regional School Committee in 2009, Mike is currently serving in his second term and was recently re-elected to serve as Chairman. Mike is the first Chairman, from the Town of Wales, in the 60 year history of the Tantasqua Regional School District. Prior to becoming Chairman Mike lead the Budget Sub-Committee and served on the regional negotiation committee.</p>
+				<p>Mike works full time at Hopkinton based EMC Corporation, one of Massachusetts biggest employers. He has been with the company for 9 years and is currently Business Manager for the America’s Inside Sales Division.</p>
+				<p>An active community member from blue collar roots, Mike is now running for State Senate to represent the Worcester, Hampden, Hampshire, Middlesex district. Mike would be honored to represent the district he grew up in, was educated in, and has served municipal office in. </p>
+			</div>
 		</div>
 	</div>
 	

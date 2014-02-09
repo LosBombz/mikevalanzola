@@ -37,7 +37,19 @@
 	<div data-module="res-slider-module" class="slider-container">
 		<ul class="slider">
 			<li>
-				<img src="images/content/mike1.jpg" alt="Mike Valanzola in front of the Wales Town Hall" />
+				<img src="images/content/homepage-slider/mike1.jpg" alt="Mike Valanzola in front of the Wales Town Hall" />
+			</li>
+			<li>
+				<img src="images/content/homepage-slider/mike2.jpg" alt="Mike Valanzola in front of the Wales Town Hall" />
+			</li>
+			<li>
+				<img src="images/content/homepage-slider/mike3.jpg" alt="Mike Valanzola in front of the Wales Town Hall" />
+			</li>
+			<li>
+				<img src="images/content/homepage-slider/mike4.jpg" alt="Mike Valanzola in front of the Wales Town Hall" />
+			</li>
+			<li>
+				<img src="images/content/homepage-slider/mike5.jpg" alt="Mike Valanzola in front of the Wales Town Hall" />
 			</li>
 		</ul>
 	</div>

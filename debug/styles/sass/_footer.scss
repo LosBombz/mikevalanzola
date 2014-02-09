@@ -27,9 +27,7 @@ footer {
 		height: 115px;
 		.buttons {
 			margin: 10px 0 0 0;
-			@media screen and (max-width: 580px) {
-				display: none;
-			}
+
 		}
 		.button {
 			&.social {
