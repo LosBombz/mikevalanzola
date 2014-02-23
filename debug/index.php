@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US"> 
 <head>
-	<title>Michael Valanzola - Massachusetts State Senate</title>
+	<title>Michael Valanzola - Massachusetts State Senate | 1st Worcester Hampden Hampshire Middlesex district</title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
