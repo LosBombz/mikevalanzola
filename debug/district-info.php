@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US"> 
 <head>
-	<title>Michael Valanzola - Endorsements - Massachusetts State Senate</title>
+	<title>Michael Valanzola - Endorsements - Massachusetts State Senate | District information</title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
@@ -38,23 +38,68 @@
 	<div data-module="res-slider-module" class="slider-container">
 		<ul class="slider">
 			<li>
-				<img src="images/content/mike-family.jpg" alt="Mike Valanzola and his family" />
+				<img src="images/content/districtMap(banner).jpg" alt="Mike Valanzola in front of the Wales Town Hall" />
 			</li>
 		</ul>
 	</div>
 	
 
-	<h1>Mike Valanzola's Biography</h1>
+	<h1>1st Worcester Hampden Hampshire Middlesex district</h1>
 
-	<div class="biography-container">
+	<div class="district-container">
 		
 		<div class="content-container">
-			<div class="bio">
-				<p>Mike Valanzola was born November 21, 1984 the first of two children to Mark and Linda Valanzola. He has a sister Lindsay who is 24 years old. Mike graduated from Tantasqua Regional High School in 2003 and went on to attend Emmanuel College in Boston. On May 12, 2007 Mike graduated from Emmanuel College, cum lade, distinction in the field with a B.A. in Political Science and English Communications.</p>
-				<p>On Tuesday May 29, 2007 only 17 days after he graduated from college, Mike was elected to the Wales Board of Selectmen beating out a long time former Selectman.  Mike was elected the youngest selectman in the history of Wales and was among one of the youngest in the Commonwealth. He was re-elected at age 25, to a second term, with an astounding 76 percent of the vote. Mike retired from the Board of Selectmen in 2013, after serving two full terms, after pleading to only serve two terms. </p>
-				<p>Elected to the Tantasqua Regional School Committee in 2009, Mike is currently serving in his second term and was recently re-elected to serve as Chairman. Mike is the first Chairman, from the Town of Wales, in the 60 year history of the Tantasqua Regional School District. Prior to becoming Chairman Mike lead the Budget Sub-Committee and served on the regional negotiation committee.</p>
-				<p>Mike works full time at Hopkinton based EMC Corporation, one of Massachusetts biggest employers. He has been with the company for 9 years and is currently Business Manager for the America’s Inside Sales Division.</p>
-				<p>An active community member from blue collar roots, Mike is now running for State Senate to represent the Worcester, Hampden, Hampshire, Middlesex district. Mike would be honored to represent the district he grew up in, was educated in, and has served municipal office in. </p>
+			<div class="district">
+				<div class="column left">
+					<h2>Worcester County</h2>
+					<ul>
+						<li>Ashburnham</li>
+						<li>Athol</li>
+						<li>Barre</li>
+						<li>Brookfield</li>
+						<li>Charlton</li>
+						<li>East Brookfield</li>
+						<li>Hardwick</li>
+						<li>Hubbardston</li>
+						<li>New Braintree</li>
+						<li>North Brookfield</li>
+						<li>Oakham</li>
+						<li>Paxton</li>
+						<li>Petersham</li>
+						<li>Phillipston</li>
+						<li>Rutland</li>
+						<li>Spencer</li>
+						<li>Sturbridge</li>
+						<li>Templeton</li>
+						<li>West Brookfield</li>
+						<li>Warren</li>
+						<li>Winchendon</li>
+					</ul>
+
+					<h2>Hampden County</h2>
+
+					<ul>
+						<li>Brimfield</li>
+						<li>Holland</li>
+						<li>Monson</li>
+						<li>Palmer</li>
+						<li>Wales</li>
+					</ul>
+
+					<h2>Hampshire County</h2>
+					<ul>
+						<li>Ware</li>
+					</ul>
+
+
+					<h2>Middlesex County</h2>
+					<ul>
+						<li>Ashby</li>
+					</ul>
+				</div>
+				<div class="column right">
+					<img src="images/content/districtMap.jpg" alt="" />
+				</div>
 			</div>
 		</div>
 	</div>
