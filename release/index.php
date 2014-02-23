@@ -32,9 +32,27 @@
 
 </head>
 <body>
-	
+	<?php include("includes/header.php"); ?>
 	<?php include("includes/navigation.php"); ?>
-	<?php include("includes/res-slider.php"); ?>
+	<div data-module="res-slider-module" class="slider-container">
+		<ul class="slider">
+			<li>
+				<img src="images/content/homepage-slider/mike1.jpg" alt="Mike Valanzola in front of the Wales Town Hall" />
+			</li>
+			<li>
+				<img src="images/content/homepage-slider/mike2.jpg" alt="Mike Valanzola in front of the Wales Town Hall" />
+			</li>
+			<li>
+				<img src="images/content/homepage-slider/mike3.jpg" alt="Mike Valanzola in front of the Wales Town Hall" />
+			</li>
+			<li>
+				<img src="images/content/homepage-slider/mike4.jpg" alt="Mike Valanzola in front of the Wales Town Hall" />
+			</li>
+			<li>
+				<img src="images/content/homepage-slider/mike5.jpg" alt="Mike Valanzola in front of the Wales Town Hall" />
+			</li>
+		</ul>
+	</div>
 	
 	<div class="quote-container">
 		<h3>Mike's Commitment to You</h3>
@@ -69,24 +87,30 @@
 			</div>
 		</div>
 	</div>
-	<div class="social-container">
+<!-- 	<div class="social-container">
 		<div class="content-container">
 			<a href="//www.facebook.com/valanzola.for.senate" target="_blank" class="button social facebook">"</a>
 			<a href="//twitter.com/mikeval84" target="_blank" class="button social twitter">#</a>
 			<a href="//www.linkedin.com/pub/mike-valanzola/12/38b/232" target="_blank" class="button social linkedin">!</a>
 		</div>
-	</div>
+	</div> -->
 	
-	<?php include("includes/res-slider.php"); ?>
+	<?php include("includes/footer.php"); ?>
 	
-	<script src="scripts/main.js"></script>
+	<!-- build:js scripts/main.js -->
+	<script data-main="scripts/app.main.js" src="scripts/components/requirejs/require.js"></script>
+	<script src="scripts/require.config.js"></script>
+	<!-- /build -->
+	<!-- build:template
 	<script>
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-46917413-1', 'mikevalanzola.com');
-	ga('send', 'pageview');
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', '<%= ua%>', 'mikevalanzola.com');
+	  ga('send', 'pageview');
 	</script>
+	 /build -->
 </body>
 </html>
