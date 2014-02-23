@@ -8,6 +8,7 @@
 		paths: {
 			'jquery': 'components/jquery/jquery',
 			'jquery.swipe' : 'libs/swipe',
+            'res-nav' : 'components/responsive-nav/responsive-nav.min',
 			'text': 'components/requirejs-text/text',
 			underscore: 'components/underscore/underscore-min',
             backbone: 'components/backbone/backbone-min',
@@ -26,6 +27,9 @@
             'backbone': {
                 deps: ['underscore', 'jquery'],
                 exports: 'Backbone'
+            },
+            'res-nav' : {
+                exports: 'responsiveNav'
             }
         }
 	});

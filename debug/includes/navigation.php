@@ -1,4 +1,4 @@
-<nav class="main-nav">
+<nav class="main-nav" id="main-nav" data-module="res-nav-module">
 	<ul>
 		<li>
 			<a href="/endorsements.php">Endorsments</a>
