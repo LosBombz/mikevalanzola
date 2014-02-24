@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US"> 
 <head>
-	<title>Michael Valanzola - Massachusetts State Senate | Endorsements</title>
+	<title>Michael Valanzola Massachusetts State Senate | Contact information</title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
@@ -35,76 +35,29 @@
 	<?php include("includes/header.php"); ?>
 	<?php include("includes/navigation.php"); ?>
 	
-	<div data-module="res-slider-module" class="slider-container">
+<!-- 	<div data-module="res-slider-module" class="slider-container">
 		<ul class="slider">
 			<li>
-				<img src="images/content/endorsements-slider/endorsement-1.jpg" alt="Mike Valanzola in front of the Wales Town Hall" />
+				<img src="images/content/districtMap(banner).jpg" alt="Mike Valanzola in front of the Wales Town Hall" />
 			</li>
 		</ul>
-	</div>
+	</div> -->
 	
 
-	<h1>Endorsements From Mike Valanzola Supporters</h1>
+	<h1>Contact the Mike Valanzola Committee</h1>
 
-	<div class="endorsements-container">
+	<div class="contact-container">
 		
 		<div class="content-container">
-			<ul>
-				<li class="endorsement">
-					<h2>
-						Lew Evangelidis
-					</h2>
-					<h3>Worcester Country Sheriff</h3>
-				</li>
-				<li class="endorsement">
-					<h2>
-						Michael Sullivan
-					</h2>
-					<h3>Former US Attorney and Candidate for US Senate</h3>
-				</li>
-				<li class="endorsement">
-					<h2>
-						Reed Hillman
-					</h2>
-					<h3>Former State Rep, Candidate for L.G. and Superintendent of the Mass State Police </h3>
-				</li>
-				<li class="endorsement">
-					<h2>
-						Todd Smola
-					</h2>
-					<h3>State Representative for the 1st Hampden District</h3>
-				</li>
-				<li class="endorsement">
-					<h2>
-						Nick Boldyga
-					</h2>
-					<h3>State Representative for the 3rd Hampden District</h3>
-				</li>
-				<li class="endorsement">
-					<h2>
-						David Peters 
-					</h2>
-					<h3>Former House Minority Leader</h3>
-				</li>
-				<li class="endorsement">
-					<h2>
-						Jennie Cassie 
-					</h2>
-					<h3>Governors Councilor</h3>
-				</li>
-				<li class="endorsement">
-					<h2>
-						Kim Ferguson 
-					</h2>
-					<h3>State Rep</h3>
-				</li>
-				<li class="endorsement">
-					<h2>
-						Paul Frost 
-					</h2>
-					<h3>State Rep</h3>
-				</li>
-			</ul>
+			<div class="contact">
+				<ul>
+					<li>Mike Valanzola Committee</li>
+					<li>P.O. Box 821</li>
+					<li>Wales, MA 01081</li>
+					<li>Phone: (413) 245-1472</li>
+					<li>E-Mail: <a href="mailto:campaign@mikevalanzola.com">campaign@mikevalanzola.com</a></li>
+				</ul>
+			</div>
 		</div>
 	</div>
 	

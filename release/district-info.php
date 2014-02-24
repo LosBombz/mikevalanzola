@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US"> 
 <head>
-	<title>Michael Valanzola - Endorsements - Massachusetts State Senate | District information</title>
+	<title>Michael Valanzola Massachusetts State Senate | District information</title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
@@ -99,6 +99,9 @@
 				</div>
 				<div class="column right">
 					<img src="images/content/districtMap.jpg" alt="" />
+					<img src="images/content/district-1.jpg" alt="" />
+					<img src="images/content/district-2.jpg" alt="" />
+					<img src="images/content/district-3.jpg" alt="" />
 				</div>
 			</div>
 		</div>
