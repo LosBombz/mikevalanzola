@@ -35,71 +35,28 @@
 	<?php include("includes/header.php"); ?>
 	<?php include("includes/navigation.php"); ?>
 	
-	<div data-module="res-slider-module" class="slider-container">
+<!-- 	<div data-module="res-slider-module" class="slider-container">
 		<ul class="slider">
 			<li>
 				<img src="images/content/districtMap(banner).jpg" alt="Mike Valanzola in front of the Wales Town Hall" />
 			</li>
 		</ul>
-	</div>
+	</div> -->
 	
 
-	<h1>1st Worcester Hampden Hampshire Middlesex district</h1>
+	<h1>Contact the Mike Valanzola Committee</h1>
 
-	<div class="district-container">
+	<div class="contact-container">
 		
 		<div class="content-container">
-			<div class="district">
-				<div class="column left">
-					<h2>Worcester County</h2>
-					<ul>
-						<li>Ashburnham</li>
-						<li>Athol</li>
-						<li>Barre</li>
-						<li>Brookfield</li>
-						<li>Charlton</li>
-						<li>East Brookfield</li>
-						<li>Hardwick</li>
-						<li>Hubbardston</li>
-						<li>New Braintree</li>
-						<li>North Brookfield</li>
-						<li>Oakham</li>
-						<li>Paxton</li>
-						<li>Petersham</li>
-						<li>Phillipston</li>
-						<li>Rutland</li>
-						<li>Spencer</li>
-						<li>Sturbridge</li>
-						<li>Templeton</li>
-						<li>West Brookfield</li>
-						<li>Warren</li>
-						<li>Winchendon</li>
-					</ul>
-
-					<h2>Hampden County</h2>
-
-					<ul>
-						<li>Brimfield</li>
-						<li>Holland</li>
-						<li>Monson</li>
-						<li>Palmer</li>
-						<li>Wales</li>
-					</ul>
-
-					<h2>Hampshire County</h2>
-					<ul>
-						<li>Ware</li>
-					</ul>
-
-
-					<h2>Middlesex County</h2>
-					<ul>
-						<li>Ashby</li>
-					</ul>
-				</div>
-				<div class="column right">
-					<img src="images/content/districtMap.jpg" alt="" />
-				</div>
+			<div class="contact">
+				<ul>
+					<li>Mike Valanzola Committee</li>
+					<li>P.O. Box 821</li>
+					<li>Wales, MA 01081</li>
+					<li>Phone: (413) 245-1472</li>
+					<li>E-Mail: <a href="mailto:campaign@mikevalanzola.com">campaign@mikevalanzola.com</a></li>
+				</ul>
 			</div>
 		</div>
 	</div>
