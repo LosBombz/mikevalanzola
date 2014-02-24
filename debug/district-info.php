@@ -99,6 +99,9 @@
 				</div>
 				<div class="column right">
 					<img src="images/content/districtMap.jpg" alt="" />
+					<img src="images/content/district-1.jpg" alt="" />
+					<img src="images/content/district-2.jpg" alt="" />
+					<img src="images/content/district-3.jpg" alt="" />
 				</div>
 			</div>
 		</div>
