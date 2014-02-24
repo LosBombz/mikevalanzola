@@ -48,7 +48,9 @@ module.exports = function(grunt) {
                     out: "release/scripts/main.js",
                     name: "components/almond/almond",
                     include: [
-                        'app.main'
+                        'app.main',
+                        'modules/res-nav-module/res-nav-module.main',
+                        'modules/res-slider-module/res-slider-module.main'
                     ],
                     insertRequire: ['app.main']
                 }
