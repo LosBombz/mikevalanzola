@@ -110,7 +110,11 @@ module.exports = function(grunt) {
                     }
                 },
                 files: {
-                    'release/index.php': ['debug/index.php']
+                    'release/index.php': ['debug/index.php'],
+                    'release/biography.php': ['release/biography.php'],
+                    'release/contact.php': ['release/contact.php'],
+                    'release/district-info.php': ['release/district-info.php'],
+                    'release/endorsements.php': ['release/endorsements.php']
                 }
             }
         },
@@ -186,7 +190,7 @@ module.exports = function(grunt) {
 
     
     // Default task.
-    grunt.registerTask('default', [ 'requirejs', 'processhtml', 'copy', 'compass' ]);
+    grunt.registerTask('default', [ 'requirejs', 'copy', 'processhtml', 'compass' ]);
     grunt.registerTask('s', ['connect:debug:keepalive']);
     grunt.registerTask('rs', ['connect:release:keepalive']);
 
