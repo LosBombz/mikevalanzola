@@ -96,13 +96,13 @@
 					<h2>
 						Kim Ferguson 
 					</h2>
-					<h3>State Rep</h3>
+					<h3>State Rep, First Worcester District</h3>
 				</li>
 				<li class="endorsement">
 					<h2>
 						Paul Frost 
 					</h2>
-					<h3>State Rep</h3>
+					<h3>State Rep, Seventh Worcester District</h3>
 				</li>
 			</ul>
 		</div>

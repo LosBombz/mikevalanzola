@@ -1,7 +1,7 @@
 <nav class="main-nav" id="main-nav" data-module="res-nav-module">
 	<ul>
 		<li>
-			<a href="/endorsements.php">Endorsments</a>
+			<a href="/endorsements.php">Endorsements</a>
 		</li>
 		<li>
 			<a href="/biography.php">Biography</a>
