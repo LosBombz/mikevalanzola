@@ -2,7 +2,7 @@
 	overflow: hidden;
   	visibility: hidden;
   	position: relative;
-  	max-height: 410px;
+  	max-height: 600px;
   	border-bottom: 2px solid $light-grey;
 	.slider {
 		overflow: hidden;
@@ -20,19 +20,7 @@
 		
 	}
 
-	@media screen and (max-width: $break-mid) {
 
-		// height: auto;
-
-		// img {
-			
-		// 	height: auto;
-		// }
-		// .slider {
-		// 	width: 100%;
-		// }
-		
-	}
 
 	@media screen and (max-width: $break-small) {
 
