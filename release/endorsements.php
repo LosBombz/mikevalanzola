@@ -58,9 +58,9 @@
 				</li>
 				<li class="endorsement">
 					<h2>
-						Michael Sullivan
+						David Tuttle 
 					</h2>
-					<h3>Former US Attorney and Candidate for US Senate</h3>
+					<h3>Former State Representative</h3>
 				</li>
 				<li class="endorsement">
 					<h2>
