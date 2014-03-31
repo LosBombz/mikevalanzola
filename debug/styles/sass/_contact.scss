@@ -1,9 +1,13 @@
 $border-shadow: #bbbbbb;
-
+a.volunteer {
+		width: 100%;
+		display:inline-block;
+	}
 .contact-container {
 	width: 100%;
 	
 	background: #ffffff;
+	
 	
 	// border-bottom: 4px solid $border-shadow;
 	
@@ -12,7 +16,7 @@ $border-shadow: #bbbbbb;
 		margin: 0 auto;
 		padding: 20px;
 
-		
+
 			
 		ul {
 			margin: 20px 0;
@@ -64,6 +68,11 @@ $border-shadow: #bbbbbb;
 		width: 100%;
 		.content-container {
 			width: 100%;
+		}
+		.contact {
+			.button {
+				width: 100%;
+			}
 		}
 	}
 
