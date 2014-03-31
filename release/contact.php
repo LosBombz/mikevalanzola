@@ -56,6 +56,8 @@
 					<li>Wales, MA 01081</li>
 					<li>Phone: (413) 245-1472</li>
 					<li>E-Mail: <a href="mailto:campaign@mikevalanzola.com">campaign@mikevalanzola.com</a></li>
+
+					<li><a name="volunteer" href="mailto:campaign@mikevalanzola.com?subject=Volunteer Signup from Website" class="button red volunteer">Volunteer</a></li>
 				</ul>
 			</div>
 		</div>
