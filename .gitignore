@@ -9,5 +9,5 @@ _SpecRunner.html
 *.sublime-project
 *.sublime-workspace
 *.orig
-debug/styles/css
-*.css
+main.css
+print.css
