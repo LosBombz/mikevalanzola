@@ -53,7 +53,7 @@
         <li>Support local aid to our communities and make it the number one priority of every annual state budget.</li>
         <li>Create jobs by supporting policies that encourage businesses to invest, grow, and hire locally.</li>
         <li>Ensure our schools are supported and funded to optimize student achievement.</li>
-        <li>Refuse to reqard illegal immigrants with in-state tuition or drivers licenses.</li>
+        <li>Refuse to reward illegal immigrants with in-state tuition or drivers licenses.</li>
         <li>Support our sportsmen.</li>
         <li>Lower taxes for all our citizens.</li>
       </ul>
