@@ -104,6 +104,12 @@
 					</h2>
 					<h3>State Rep, Seventh Worcester District</h3>
 				</li>
+				<li class="endorsement">
+					<h2>
+						Tom Wesley 
+					</h2>
+					<h3>Former candidate for congress.</h3>
+				</li>
 			</ul>
 		</div>
 	</div>

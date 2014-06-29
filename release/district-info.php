@@ -44,7 +44,7 @@
 	</div>
 	
 
-	<h1>1st Worcester Hampden Hampshire Middlesex district</h1>
+	<h1>Worcester Hampden Hampshire Middlesex district</h1>
 
 	<div class="district-container">
 		

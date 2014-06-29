@@ -15,6 +15,9 @@
 		<li>
 			<a href="/contact.php">Contact</a>
 		</li>
+		<li>
+			<a href="/issues.php">Issues</a>
+		</li>
 		<!-- <li>
 			<a href="/media.php">Media</a>
 		</li> -->
