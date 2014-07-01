@@ -104,7 +104,12 @@
 					</h2>
 					<h3>Former State Representative for the Fifth Worcester District</h3>
 				</li>
-				
+				<li class="endorsement">
+					<h2>
+						Reed Hillman
+					</h2>
+					<h3>Former Colonel Massachusetts State Police and Former Representative 1st Hampden District, 2006 Republican Nominee for Lt. Governor.</h3>
+				</li>
 			</ul>
 		</div>
 	</div>
