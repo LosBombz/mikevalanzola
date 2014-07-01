@@ -57,7 +57,7 @@
         <li>Support our sportsmen.</li>
         <li>Lower taxes for all our citizens and businesses.</li>
         <li>Tank the Gas Tax.</li>
-      </ul>
+      </ul> 
     </div>
 </div>
   
