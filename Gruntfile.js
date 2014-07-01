@@ -115,6 +115,10 @@ module.exports = function(grunt) {
                     'release/contact.php': ['debug/contact.php'],
                     'release/district-info.php': ['debug/district-info.php'],
                     'release/endorsements.php': ['debug/endorsements.php'],
+                    'release/biography.php': ['release/biography.php'],
+                    'release/contact.php': ['release/contact.php'],
+                    'release/district-info.php': ['release/district-info.php'],
+                    'release/endorsements.php': ['release/endorsements.php'],
                     'release/issues.php': ['debug/issues.php']
                 }
             }

@@ -16,7 +16,7 @@ $border-shadow: #bbbbbb;
       
     ul.issues {
       margin: 20px 0;
-      list-style-type: circle;
+      list-style: disc;
       li {
         @include font-size(1.6);
         margin: 10px 0 10px 40px;
