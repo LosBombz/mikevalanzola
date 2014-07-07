@@ -52,33 +52,45 @@
 			<ul>
 				<li class="endorsement">
 					<h2>
-						Lew Evangelidis
+						Rep. Todd Smola
+					</h2>
+					<h3>State Representative, First Hampden District</h3>
+				</li>
+				<li class="endorsement">
+					<h2>
+						Rep. Kim Ferguson 
+					</h2>
+					<h3>State Representative, First Worcester District</h3>
+				</li>
+				<li class="endorsement">
+					<h2>
+						Rep. Nick Boldyga
+					</h2>
+					<h3>State Representative, Third Hampden District</h3>
+				</li>
+				<li class="endorsement">
+					<h2>
+						Rep. Paul Frost 
+					</h2>
+					<h3>State Representative, Seventh Worcester District</h3>
+				</li>
+				<li class="endorsement">
+					<h2>
+						Sheriff Lew Evangelidis
 					</h2>
 					<h3>Worcester Country Sheriff</h3>
 				</li>
 				<li class="endorsement">
 					<h2>
-						David Tuttle 
+						Tom Wesley 
 					</h2>
-					<h3>Former State Representative</h3>
+					<h3>Former candidate for congress.</h3>
 				</li>
 				<li class="endorsement">
 					<h2>
-						Reed Hillman
+						Jennie Cassie 
 					</h2>
-					<h3>Former State Rep, Candidate for L.G. and Superintendent of the Mass State Police </h3>
-				</li>
-				<li class="endorsement">
-					<h2>
-						Todd Smola
-					</h2>
-					<h3>State Representative for the 1st Hampden District</h3>
-				</li>
-				<li class="endorsement">
-					<h2>
-						Nick Boldyga
-					</h2>
-					<h3>State Representative for the 3rd Hampden District</h3>
+					<h3>Governors Councilor, Seventh District</h3>
 				</li>
 				<li class="endorsement">
 					<h2>
@@ -88,27 +100,15 @@
 				</li>
 				<li class="endorsement">
 					<h2>
-						Jennie Cassie 
+						David Tuttle 
 					</h2>
-					<h3>Governors Councilor</h3>
+					<h3>Former State Representative for the Fifth Worcester District</h3>
 				</li>
 				<li class="endorsement">
 					<h2>
-						Kim Ferguson 
+						Reed Hillman
 					</h2>
-					<h3>State Rep, First Worcester District</h3>
-				</li>
-				<li class="endorsement">
-					<h2>
-						Paul Frost 
-					</h2>
-					<h3>State Rep, Seventh Worcester District</h3>
-				</li>
-				<li class="endorsement">
-					<h2>
-						Tom Wesley 
-					</h2>
-					<h3>Former candidate for congress.</h3>
+					<h3>Former Colonel Massachusetts State Police and Former Representative 1st Hampden District, 2006 Republican Nominee for Lt. Governor.</h3>
 				</li>
 			</ul>
 		</div>
