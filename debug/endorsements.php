@@ -78,7 +78,7 @@
 					<h2>
 						Sheriff Lew Evangelidis
 					</h2>
-					<h3>Worcester Country Sheriff</h3>
+					<h3>Worcester County Sheriff</h3>
 				</li>
 				<li class="endorsement">
 					<h2>
