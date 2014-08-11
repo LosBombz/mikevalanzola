@@ -16,7 +16,7 @@ a.volunteer {
 
 
 		input[type=submit]{
-			width: 100%;
+			width: 97%;
 			@include font-size(2.5);
 			text-align: center;
 			padding-bottom: 10px;
@@ -31,29 +31,28 @@ a.volunteer {
 		margin-bottom: 0;
 		padding: 20px;
 		padding-bottom: 0;
+	
+		p {
+			text-align: left;
+			@include font-size(1.6);
+		}
 
-
-			
 		ul {
 			margin: 20px 0 0 0;
 			li {
-				@include font-size(0.6);
-				@include inline-block;
-				padding-right:0;
+				@include font-size(1.4);
+				padding:5px 3px;
 				padding-left: 3px;
+				text-align: left;
 			}
 		}
-		
+	}
 
 		@media screen and (max-width: $break-mid) {
-	
-		
-		
-		}
 		
 		h2 {
 			@include font-size(2);
-			background: $blue;
+			/*background: $blue;*/
 			padding: 10px;
 			color: #ffffff;
 			font-family: $serif;

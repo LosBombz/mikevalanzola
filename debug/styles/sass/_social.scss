@@ -64,10 +64,10 @@ header {
 		display: inline-block;
 		width: 186px;
 		vertical-align: top;
-		margin: 20px 0 0 10%;
+		margin: 20px 0 0 8%;
 		@media screen and (max-width: 770px) {
 			margin: 0;
-			padding-left: 12.076%;
+			padding: 0;
 			width: 100%;
 		}
 		.buttons {
@@ -78,6 +78,7 @@ header {
 
 			@media screen and (max-width: 580px) {
 				display: none;
+				margin: 0;
 			}
 		}
 		.button {
@@ -91,11 +92,11 @@ header {
 					float: left;
 
 						&:nth-child(1) {
-							margin-right: 10px;
+							margin-right: 1%;
 						}
 
 						&:nth-child(3) {
-							margin-left: 10px;
+							margin-left: 1%;
 						}
 				}
 			}

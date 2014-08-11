@@ -401,16 +401,6 @@
 		    <input id="saveForm" class="button red volunteer" name="saveForm" type="submit" value="Volunteer" />
 		   	</div>
 				</li>
-				<div class="contact">
-						<ul>
-							<li>Mike Valanzola Committee</li>
-							<li>P.O. Box 821</li>
-							<li>Wales, MA 01081</li>
-							<li>Phone: (413) 245-1472</li>
-							<li>E-Mail: <a href="mailto:campaign@mikevalanzola.com">campaign@mikevalanzola.com</a></li>
-						</ul>
-				</div>
-
 				<li class="hide">
 				<label for="comment">Do Not Fill This Out</label>
 				<textarea name="comment" id="comment" rows="1" cols="1"></textarea>
@@ -418,8 +408,18 @@
 				</li>
 				</ul>
 				</div> <!--- container -->
-				<!--END WOOFU FORM-->
 				</form> 
+			</div>
+			<!--END WOOFU FORM-->
+			<div class="contact">
+				<p>To contact the Mike Valanzola Campaign Committee, please reach out using the below information.</p>
+				<ul>
+					<li>Mike Valanzola Committee</li>
+					<li>P.O. Box 821</li>
+					<li>Wales, MA 01081</li>
+					<li>Phone: (413) 245-1472</li>
+					<li>E-Mail: <a href="mailto:campaign@mikevalanzola.com">campaign@mikevalanzola.com</a></li>
+				</ul>
 			</div>
 		</div>
 	</div>
