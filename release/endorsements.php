@@ -52,6 +52,12 @@
 			<ul>
 				<li class="endorsement">
 					<h2>
+						Rep. Peter Durant
+					</h2>
+					<h3>State Representative, Sixth Worcester District.</h3>
+				</li>
+				<li class="endorsement">
+					<h2>
 						Rep. Todd Smola
 					</h2>
 					<h3>State Representative, First Hampden District</h3>
