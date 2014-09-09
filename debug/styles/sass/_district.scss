@@ -11,7 +11,7 @@ $border-shadow: #bbbbbb;
 		width: 100%;
 		margin: 0 auto;
 		padding: 20px;
-
+		@include inline-block;
 		.column {
 			width: 45%;
 			@include inline-block;

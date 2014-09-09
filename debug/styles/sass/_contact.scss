@@ -5,38 +5,54 @@ a.volunteer {
 	}
 .contact-container {
 	width: 100%;
-	
+	padding: 50px 0 50px 0;
 	background: #ffffff;
 	
 	
 	// border-bottom: 4px solid $border-shadow;
 	
+	.volunteer-form{
+		margin: 0 auto;
+
+
+		input[type=submit]{
+			width: 97%;
+			@include font-size(2.5);
+			text-align: center;
+			padding-bottom: 10px;
+			border: none;
+			border-bottom: 3px solid $dark-red;
+		}
+	}
+
 	.contact {
 		width: 100%;
 		margin: 0 auto;
+		margin-bottom: 0;
 		padding: 20px;
+		padding-bottom: 0;
+	
+		p {
+			text-align: left;
+			@include font-size(1.6);
+		}
 
-
-			
 		ul {
-			margin: 20px 0;
+			margin: 20px 0 0 0;
 			li {
-				@include font-size(1.6);
-				margin: 10px 0 10px 40px;
-				
+				@include font-size(1.4);
+				padding:5px 3px;
+				padding-left: 3px;
+				text-align: left;
 			}
 		}
-		
+	}
 
 		@media screen and (max-width: $break-mid) {
-	
-		
-		
-		}
 		
 		h2 {
 			@include font-size(2);
-			background: $blue;
+			/*background: $blue;*/
 			padding: 10px;
 			color: #ffffff;
 			font-family: $serif;
