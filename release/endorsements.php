@@ -54,7 +54,7 @@
 					<h2>
 						Rep. Peter Durant
 					</h2>
-					<h3>State Representative, Sixth Worcester District.</h3>
+					<h3>State Representative, Sixth Worcester District</h3>
 				</li>
 				<li class="endorsement">
 					<h2>
