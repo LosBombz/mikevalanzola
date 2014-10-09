@@ -37,22 +37,25 @@
 	<div data-module="res-slider-module" class="slider-container">
 		<ul class="slider">
 			<li>
-				<img src="images/content/homepage-slider/mike1.jpg" alt="Mike Valanzola in front of the Wales Town Hall" />
+				<img src="images/content/homepage-slider/mike1.jpg" alt="Mike Valanzola with Athol Historical Society" />
 			</li>
 			<li>
-				<img src="images/content/homepage-slider/mike8.jpg" alt="Mike Valanzola in front of the Wales Town Hall" />
+				<img src="images/content/homepage-slider/mike2.jpg" alt="Mike Valanzola with Phil Hamel" />
 			</li>
 			<li>
-				<img src="images/content/homepage-slider/mike3.jpg" alt="Mike Valanzola in front of the Wales Town Hall" />
+				<img src="images/content/homepage-slider/mike3.jpg" alt="" />
 			</li>
 			<li>
-				<img src="images/content/homepage-slider/mike4.jpg" alt="Mike Valanzola in front of the Wales Town Hall" />
+				<img src="images/content/homepage-slider/mike4.jpg" alt="" />
 			</li>
 			<li>
-				<img src="images/content/homepage-slider/mike6.jpg" alt="Mike Valanzola in front of the Wales Town Hall" />
+				<img src="images/content/homepage-slider/mike5.jpg" alt="" />
 			</li>
 			<li>
-				<img src="images/content/homepage-slider/mike7.jpg" alt="Mike Valanzola in front of the Wales Town Hall" />
+				<img src="images/content/homepage-slider/mike6.jpg" alt="" />
+			</li>
+			<li>
+				<img src="images/content/homepage-slider/mike7.jpg" alt="" />
 			</li>
 		</ul>
 	</div>
