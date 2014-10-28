@@ -18,6 +18,7 @@
   
   <noscript><link href="styles/css/icons.fallback.css" rel="stylesheet"></noscript>
   <link rel="stylesheet" media="screen" href="styles/css/main.css">
+  <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
   <script src="scripts/libs/modernizr.js"></script>
 
   <!--[if lt IE 9]>
