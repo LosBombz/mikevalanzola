@@ -61,10 +61,6 @@
 	
 	<?php include("includes/footer.php"); ?>
 	
-	<!-- build:js scripts/main.js -->
-	<script data-main="scripts/app.main.js" src="scripts/components/requirejs/require.js"></script>
-	<script src="scripts/require.config.js"></script>
-	<!-- /build -->
 	<!-- build:template
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
