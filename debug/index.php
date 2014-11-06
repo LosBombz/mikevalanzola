@@ -38,7 +38,7 @@
 		
 		<div class="content-container">
 			<div class="bio">
-			<img src="/images/content/mike-headshot.jpg" alt="Mike Valanzola headshot" class="head-shot">
+			<img src="images/content/mike-headshot.jpg" alt="Mike Valanzola headshot" class="head-shot">
 			<p>The last ten months have been an incredible journey! I'm grateful for all the support I received and the friendships I've created. This is an amazing  <br />district filled with incredible people. <br /><br />I wish our new Senator well as she moves into the role and will continue to work with all our elected officials for the betterment of our commonwealth!<br /> Thank you for your support! <br /><br />&ndash; Mike Valanzola </p>
 			</div>
 		</div>
@@ -46,10 +46,7 @@
 	
 	<?php include("includes/footer.php"); ?>
 	
-	<!-- build:js scripts/main.js -->
-	<script data-main="scripts/app.main.js" src="scripts/components/requirejs/require.js"></script>
-	<script src="scripts/require.config.js"></script>
-	<!-- /build -->
+
 	<!-- build:template
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
