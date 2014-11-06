@@ -33,73 +33,16 @@
 </head>
 <body>
 	<?php include("includes/header.php"); ?>
-	<?php include("includes/navigation.php"); ?>
-	<div data-module="res-slider-module" class="slider-container">
-		<ul class="slider">
-			<li>
-				<img src="images/content/homepage-slider/mike1.jpg" alt="Mike Valanzola with Athol Historical Society" />
-			</li>
-			<li>
-				<img src="images/content/homepage-slider/mike2.jpg" alt="Mike Valanzola with Phil Hamel" />
-			</li>
-			<li>
-				<img src="images/content/homepage-slider/mike3.jpg" alt="" />
-			</li>
-			<li>
-				<img src="images/content/homepage-slider/mike4.jpg" alt="" />
-			</li>
-			<li>
-				<img src="images/content/homepage-slider/mike5.jpg" alt="" />
-			</li>
-			<li>
-				<img src="images/content/homepage-slider/mike6.jpg" alt="" />
-			</li>
-			<li>
-				<img src="images/content/homepage-slider/mike7.jpg" alt="" />
-			</li>
-		</ul>
-	</div>
-	
-	<div class="quote-container">
-		<h3>Mike's Commitment to You</h3>
+	<h1>THANK YOU</h1>
+	<div class="biography-container">
+		
 		<div class="content-container">
-			
-			<q>
-				I will be a State Senator that you can count on, one that will lead and represent you in an open and honest way. I will work with you to help solve our most complex problems and I will never forget that we're all in this together. Please join our team!
-			</q>
-		</div>
-	</div>
-	<div class="pillars-container">
-		<h3>The Focus of our Campaign</h3>
-		<div class="content-container">
-
-			<div class="pillar">
-				<h2>Economy</h2>
-				<p>
-					Mike has the pleasure of working at one of Massachusetts largest technology employers, EMC Corporation. At EMC Mike has led teams and organizations and understands that a pro-job, pro-prosperity government can work to create the conditions that enable businesses of all sizes to grow and thrive. 
-				</p>
-			</div>
-			<div class="pillar">
-				<h2>Education</h2>
-				<p>
-					As Chairman of the Tantasqua Regional School Committee, Mike knows how important Regional transportation and Chapter 70 funding is to schools in our district. He will work hard to always ensure that our schools are supported at the highest level and our standards are unmatched by any other state.
-				</p>
-			</div>
-			<div class="pillar">
-				<h2>Community</h2>
-				<p>
-					The 28 towns in this district are used to having a partner in the Senate, someone who will work with them on every issue important to our municipalities. As a two term Selectman, Mike knows how important that partnership is for our communities. 
-				</p>
+			<div class="bio">
+			<img src="/images/content/mike-headshot.jpg" alt="Mike Valanzola headshot" class="head-shot">
+			<p>The last ten months have been an incredible journey! I'm grateful for all the support I received and the friendships I've created. This is an amazing  <br />district filled with incredible people. <br /><br />I wish our new Senator well as she moves into the role and will continue to work with all our elected officials for the betterment of our commonwealth!<br /> Thank you for your support! <br /><br />&ndash; Mike Valanzola </p>
 			</div>
 		</div>
 	</div>
-<!-- 	<div class="social-container">
-		<div class="content-container">
-			<a href="//www.facebook.com/valanzola.for.senate" target="_blank" class="button social facebook">"</a>
-			<a href="//twitter.com/mikeval84" target="_blank" class="button social twitter">#</a>
-			<a href="//www.linkedin.com/pub/mike-valanzola/12/38b/232" target="_blank" class="button social linkedin">!</a>
-		</div>
-	</div> -->
 	
 	<?php include("includes/footer.php"); ?>
 	
